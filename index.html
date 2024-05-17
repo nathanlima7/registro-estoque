@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Quantidades</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de Quantidades</h1>
+        <form id="quantityForm">
+            <div class="item">
+                <label for="arroz">Arroz:</label>
+                <input type="number" id="arroz" name="arroz">
+            </div>
+            <div class="item">
+                <label for="feijao">Feijão:</label>
+                <input type="number" id="feijao" name="feijao">
+            </div>
+            <div class="item">
+                <label for="farinha">Farinha:</label>
+                <input type="number" id="farinha" name="farinha">
+            </div>
+            <div class="item">
+                <label for="sardinha">Sardinha:</label>
+                <input type="number" id="sardinha" name="sardinha">
+            </div>
+            <div class="item">
+                <label for="acucar">Açúcar:</label>
+                <input type="number" id="acucar" name="acucar">
+            </div>
+            <button type="button" onclick="exportPDF()">Exportar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
