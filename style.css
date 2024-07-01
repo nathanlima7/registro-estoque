@@ -12,6 +12,7 @@ h1 {
 }
 
 #fullscreen-btn {
+    display: none;
     margin: 10px;
     padding: 10px 20px;
     font-size: 1em;
