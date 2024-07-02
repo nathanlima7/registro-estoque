@@ -60,4 +60,16 @@ h1 {
         height: 60px;
         font-size: 1.5em;
     }
+footer {
+width: 100%;
+heigt: 30px;
+align-itens: center;
+justfy-content: space-around;
+}
+
+footer p {
+text-align: center;
+color: white;
+font-size: 13px;
+}
 }
