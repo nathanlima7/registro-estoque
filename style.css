@@ -62,9 +62,10 @@ h1 {
     }
 footer {
 width: 100%;
-heigt: 30px;
+heigt: 20px;
 align-itens: center;
 justfy-content: space-around;
+background-color: #ff6347;
 }
 
 footer p {
