@@ -89,7 +89,7 @@ footer {
         color: white;
     }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     #game-board {
         grid-template-columns: repeat(5, 60px);
         grid-template-rows: repeat(6, 60px);
